@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/meal-table-ui/static/css/main.3cae7974.css",
+    "main.js": "/meal-table-ui/static/js/main.86046ae1.js",
+    "static/js/787.e72d287f.chunk.js": "/meal-table-ui/static/js/787.e72d287f.chunk.js",
+    "static/media/carousel_bg3.png": "/meal-table-ui/static/media/carousel_bg3.372b9b7da7e743dc130c.png",
+    "static/media/carousel_bg_1.png": "/meal-table-ui/static/media/carousel_bg_1.cab54f3ca6b3b40f617d.png",
+    "static/media/carousel_bg_2.png": "/meal-table-ui/static/media/carousel_bg_2.641018ad85d15576ff2d.png",
+    "static/media/blogImage2.webp": "/meal-table-ui/static/media/blogImage2.01efbb0a0b2a0766a0ee.webp",
+    "static/media/bg_color.png": "/meal-table-ui/static/media/bg_color.386c6b0a84bcffc7cb22.png",
+    "static/media/blogImage3.webp": "/meal-table-ui/static/media/blogImage3.188d264cfaf78a20ed7c.webp",
+    "static/media/about_bg_img.png": "/meal-table-ui/static/media/about_bg_img.6832476dc247c7e47c49.png",
+    "static/media/coffee_cup.png": "/meal-table-ui/static/media/coffee_cup.e268100487a9ba2c8812.png",
+    "static/media/blogImage1.webp": "/meal-table-ui/static/media/blogImage1.8a2148cdbd0b26d2fbd3.webp",
+    "static/media/drink-with-ice.png": "/meal-table-ui/static/media/drink-with-ice.11aef018bc91390e5d3c.png",
+    "static/media/coffee_cup_2.png": "/meal-table-ui/static/media/coffee_cup_2.2a768faeb4ee405d1730.png",
+    "static/media/mockReviewerImage2.webp": "/meal-table-ui/static/media/mockReviewerImage2.a9a62b63c120ce770cc7.webp",
+    "static/media/mockReviewerImage1.webp": "/meal-table-ui/static/media/mockReviewerImage1.d7c42d17671baa49f86e.webp",
+    "static/media/restricted.jpg": "/meal-table-ui/static/media/restricted.aebae33f42a0e663ad1c.jpg",
+    "static/media/coffee-beans-icon.svg": "/meal-table-ui/static/media/coffee-beans-icon.5838b86dac7798d8a34caa4802329c66.svg",
+    "static/media/easy-order-icon.svg": "/meal-table-ui/static/media/easy-order-icon.a6acbeb110d9c1206ce412753555f4d0.svg",
+    "static/media/coffee-cup-icon.svg": "/meal-table-ui/static/media/coffee-cup-icon.6867375935f9c7f831d7b29f9e30c901.svg",
+    "static/media/slick.svg": "/meal-table-ui/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/meal-table-ui/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/meal-table-ui/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/meal-table-ui/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/delivery-icon.svg": "/meal-table-ui/static/media/delivery-icon.d0e34ecf0025466c61de1f1dba277ad4.svg",
+    "index.html": "/meal-table-ui/index.html",
+    "main.3cae7974.css.map": "/meal-table-ui/static/css/main.3cae7974.css.map",
+    "main.86046ae1.js.map": "/meal-table-ui/static/js/main.86046ae1.js.map",
+    "787.e72d287f.chunk.js.map": "/meal-table-ui/static/js/787.e72d287f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cae7974.css",
+    "static/js/main.86046ae1.js"
+  ]
+}
