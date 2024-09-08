@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/meal-table-ui/static/css/main.3cae7974.css",
-    "main.js": "/meal-table-ui/static/js/main.86046ae1.js",
+    "main.js": "/meal-table-ui/static/js/main.4e9bd9e1.js",
     "static/js/787.e72d287f.chunk.js": "/meal-table-ui/static/js/787.e72d287f.chunk.js",
     "static/media/carousel_bg3.png": "/meal-table-ui/static/media/carousel_bg3.372b9b7da7e743dc130c.png",
     "static/media/carousel_bg_1.png": "/meal-table-ui/static/media/carousel_bg_1.cab54f3ca6b3b40f617d.png",
@@ -27,11 +27,11 @@
     "static/media/delivery-icon.svg": "/meal-table-ui/static/media/delivery-icon.d0e34ecf0025466c61de1f1dba277ad4.svg",
     "index.html": "/meal-table-ui/index.html",
     "main.3cae7974.css.map": "/meal-table-ui/static/css/main.3cae7974.css.map",
-    "main.86046ae1.js.map": "/meal-table-ui/static/js/main.86046ae1.js.map",
+    "main.4e9bd9e1.js.map": "/meal-table-ui/static/js/main.4e9bd9e1.js.map",
     "787.e72d287f.chunk.js.map": "/meal-table-ui/static/js/787.e72d287f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3cae7974.css",
-    "static/js/main.86046ae1.js"
+    "static/js/main.4e9bd9e1.js"
   ]
 }
