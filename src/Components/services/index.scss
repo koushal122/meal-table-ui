@@ -1,0 +1,56 @@
+@import '../../scss/mixins.scss';
+@import '../../scss/colors.scss';
+
+
+.services-container{
+    @include DisplayFlexRow;
+    background-color: $PRIMARY_COLOR;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+
+    @media screen and (max-width:480px) {
+      @include DisplayFlexCol;
+    }
+
+    .order-service{
+       @include DisplayFlexCol;
+       align-items: center;
+       text-align: center;
+       padding: 20px;
+
+       
+       img{
+         border: 2px solid black;
+         padding: 15px;
+         width: 60px;
+       }
+    }
+
+    .delivery-service{
+        @include DisplayFlexCol;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+
+        img{
+            border: 2px solid black;
+            padding: 15px;
+            width: 60px;
+         }
+    }
+
+    .coffee-beans-service{
+        @include DisplayFlexCol;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+
+        img{
+            border: 2px solid black;
+    padding: 15px;
+            width: 60px;
+          }
+
+    }
+}

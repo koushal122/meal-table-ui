@@ -1,0 +1,43 @@
+.user-layout{
+    margin: -8px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    font-size: larger;
+    font-weight: bolder;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .red-color-text{
+    color: red;
+  }
+  
+  
+  .green-color-text{
+    color: green;
+  }
+  
+  .button{
+      background-color: white;
+      border: 1px solid #da973b;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin: 0.2rem;
+  }
+  
+  .no-data{
+    color: black;
+    text-align: center;
+    background: white;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+  }
+  

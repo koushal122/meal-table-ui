@@ -1,0 +1,63 @@
+@import '../../scss/mixins.scss';
+@import '../../scss/colors.scss';
+
+.login-quote{
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+    p{
+        margin: 0px;
+    }
+}
+
+
+.login-page{
+    top: 50%;
+    left: 10%;
+    right: 10%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+
+    @media screen and (max-width:550px) {
+        top: 25%;
+        flex-direction: column;
+        gap: 5rem;
+    }
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+
+    input{
+        padding: 1rem;
+        border-radius: 0.8rem;
+    }
+
+    .login{
+        padding: 0.5rem;
+        background-color: $PRIMARY_COLOR;
+        border-radius: 1rem;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+
+.role-check{
+    color: $PRIMARY_COLOR;
+    display: flex;
+    gap: 0.5rem;
+
+    input{
+        width: 1rem;
+        height: 1rem;
+    }
+}

@@ -1,0 +1,1 @@
+export const ADD_PRODUCT_ENDPOINT = '/api/products/add-product';

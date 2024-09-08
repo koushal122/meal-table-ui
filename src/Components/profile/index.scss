@@ -1,0 +1,67 @@
+@import '../../scss/mixins.scss';
+@import '../../scss/colors.scss';
+
+.profile-container{
+    display: flex;
+    cursor: pointer;
+}
+.profile{
+    align-self: center;
+    display: flex;
+    gap: 0.5rem;
+
+    @media screen and (max-width:700px) {
+        @include DisplayFlexCol;
+        margin-top: 2rem;
+    }
+
+    .profile-icon{
+        align-self: center;
+        color: $PROFILE_COLOR;
+    }
+
+
+    p{
+        color: white;
+        font-weight: bolder;
+    }
+
+}
+
+.profile-dropdown {
+    position: absolute;
+    top: 100%; // Position below the profile icon
+    right: 2%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 10rem;
+    padding: 10px;
+    cursor: pointer;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        padding: 10px 0;
+        border-bottom: 1px solid #eee;
+        cursor: pointer;
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        a {
+          text-decoration: none;
+          color: #333;
+          &:hover {
+            color: $PRIMARY_COLOR;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }

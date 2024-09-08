@@ -1,0 +1,41 @@
+@import '../../../scss/colors.scss';
+
+
+.table{
+    border: 1px solid white;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+td,th{
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    padding: 0.5rem;
+}
+
+.product-table-add-button{
+    margin: 0.5rem;
+}
+
+.add-product{
+    padding: 0.5rem;
+    background-color: $PRIMARY_COLOR;
+    color: white;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.products-list{
+    display: flex;
+    gap: 1rem;
+    margin-top: 7rem;
+    flex-wrap: wrap;
+    //justify-content: space-between;
+    justify-content: flex-start;
+}
+
+.header-add-button{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+}

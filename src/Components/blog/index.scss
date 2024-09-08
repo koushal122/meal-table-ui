@@ -1,0 +1,26 @@
+
+.blogs-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    padding: 4% 4%;
+
+    .blogs-container-heading{
+        color: white;
+        word-spacing: 1em;
+        letter-spacing: 4px;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+}
+
+.blogs-items-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+    cursor: pointer;
+}

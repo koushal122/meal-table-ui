@@ -1,0 +1,12 @@
+.booking-card{
+    padding: 10px;
+    color: black;
+    border-radius: 0.7rem;
+    flex: 1 1 200px; /* flex-grow: 1, flex-shrink: 1, base width: 200px */
+    min-width: 200px; /* Minimum width before it wraps to the next line */
+    max-width: 600px; /* Maximum width */
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}

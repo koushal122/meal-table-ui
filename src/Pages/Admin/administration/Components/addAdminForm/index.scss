@@ -1,0 +1,41 @@
+.address-form input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .address-form input::placeholder {
+    color: #888;
+  }
+  
+  .address-form input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+
+  .admin-permission-dropdown{
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  

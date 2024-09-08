@@ -1,0 +1,28 @@
+
+.unauthorized{
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    border-radius: 2rem;
+    right: 20%;
+    bottom: 20%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+    .unauth-image{
+        height: 11rem;
+        width: 11rem;
+        align-self: center;
+    }
+
+    p{
+        margin: 2px;
+        font-size: larger;
+        font-weight: bolder;
+        align-self: center;
+    }
+
+}

@@ -1,0 +1,57 @@
+@import '../../scss/mixins.scss';
+@import '../../scss/colors.scss';
+
+.product-container{
+    @include DisplayFlexCol;
+    align-items: center;
+    color: white;
+    border-radius: 1rem;
+    flex: 1 1 250px;
+    min-width: 250px;
+    max-width: 400px;
+    box-sizing: border-box;
+    
+    .product-description{
+        margin: 0.5rem 0.5rem;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .product-image{
+        width: 100%;
+        height: 70%;
+        border-radius: 1rem;
+    }
+
+    .product-name{
+        font-size: 18px;
+        margin: 5px 0;
+        font-weight: bolder;
+        font-family: "Josefin Sans", Arial, sans-serif;
+        margin: 0px;
+    }
+
+    .product-details{
+        margin: 0px;
+        color: grey;
+    }
+
+    .add-cart-button,.delete-button{
+        padding: 9px;
+        background-color:transparent ;
+        color: $PRIMARY_COLOR;
+        border: 1px solid $PRIMARY_COLOR;
+        border-radius: 6px;
+        align-self: center;
+    }
+
+    .delete-button{
+        color: red;
+        border: 1px solid red;
+    }
+
+    .price{
+        margin: 0px;
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,43 @@
+@import '../../../scss/mixins.scss';
+@import '../../../scss/colors.scss';
+
+.about-section{
+   @include DisplayFlexRow;
+   
+
+   .about-story{
+     @include DisplayFlexCol;
+     background: rgba(0, 0, 0, 0.5);
+     padding: 10px;
+     margin-left: -30px;
+    /* margin: 20px; */
+    margin-top: 10%;
+    margin-right: 50px;
+    height: fit-content;
+
+     span{
+        color:$PRIMARY_COLOR ;
+        font-family: "Great Vibes", cursive;
+        font-size:50px ;
+        margin-bottom: 0px;
+     }
+
+     h2{
+       color: white;
+       margin-top: 0px;
+       font-size: 40px;
+       font-weight: 700;
+     }
+
+     p{
+       color: gray;
+       font-size: 15px;
+     }
+   }
+}
+
+.about-image{
+    width: 55%;
+    height: 50rem;
+}
+

@@ -1,0 +1,30 @@
+@import '../../scss/colors.scss';
+.dropdown {
+    border: 1px solid red;
+    border-radius: 0.7rem;
+    margin: 1rem 0;
+}
+  
+.dropdown-header {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    gap: 1rem;
+}
+  
+.dropdown-content {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 0.7rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icon{
+    color: $PRIMARY_COLOR;
+    margin-top: 0.5rem;
+}

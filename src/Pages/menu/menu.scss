@@ -1,0 +1,13 @@
+@import '../../scss/mixins.scss';
+
+.menu-container{
+    margin-top: 6rem;
+   @include DisplayFlexRow;
+   width: 100%; 
+
+   @media screen and (max-width:900px) {
+     @include DisplayFlexCol;
+     align-items: center;
+     padding: 5px;
+   }
+}

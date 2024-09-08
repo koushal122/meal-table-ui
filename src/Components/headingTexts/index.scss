@@ -1,0 +1,34 @@
+@import '../../scss/colors.scss';
+@import '../../scss/mixins.scss';
+
+.heading-texts{
+    @include DisplayFlexCol;
+    align-items: center;
+
+    span{
+        font-size: 50px;
+        display: block;
+        font-family: "Great Vibes", cursive;
+        color:$PRIMARY_COLOR;
+        line-height: 1;
+        margin-bottom: -17px;
+    }
+
+    h2{
+        margin-top: 0px;
+        color: white;
+        font-size: 40px;
+        font-weight: 700;
+        position: relative;
+        text-transform: uppercase;
+    }
+
+    p{
+        color: grey;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+}

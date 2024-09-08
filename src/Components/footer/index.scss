@@ -1,0 +1,21 @@
+@import '../../scss/colors.scss';
+@import '../../scss/mixins.scss';
+
+
+.footer-container{
+   @include DisplayFlexRow;
+   color: white;
+   justify-content: center;
+   gap: 1%;
+   padding: 5% 2%;
+   background-color: black;
+
+   @media screen and (max-width:800px) {
+              flex-direction: column;
+          }
+
+   .footer-about-us,.footer-services,.footer-questions{
+     width: -webkit-fill-available;
+   }
+ 
+}

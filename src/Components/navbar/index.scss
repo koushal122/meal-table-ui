@@ -1,0 +1,169 @@
+@import '../../scss/mixins.scss';
+@import '../../scss/colors.scss';
+
+
+.badge:after{
+   content:attr(value);
+   font-size:12px;
+   color: #fff;
+   background: $PRIMARY_COLOR;
+   border-radius:50%;
+   padding: 1px 6px;
+   position:relative;
+   left:-8px;
+   top:-10px;
+   opacity:0.9;
+}
+
+#logo{
+   @include DisplayFlexCol;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   font-weight: 600;
+   letter-spacing: 0.1rem;
+   font-size:22px;
+   font-family: "Josefin Sans", Arial, sans-serif;
+   margin-left: 10%;
+
+   @media screen and (max-width: 1100px){
+      margin: 0px;
+   }
+}
+
+.navbar{
+    @include DisplayFlexRow;
+    justify-content: space-evenly;
+    gap: 16px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    border-bottom: 1px solid rgb(255, 255, 255,0.2);
+    
+    @media screen and (max-width: 1100px){
+       background-color: black;
+    }
+
+}
+
+.navbar-list{
+   @include DisplayFlexRow;
+   gap: 10px;
+   list-style: none;
+   align-items: center;
+   font-size: 13px;
+   letter-spacing: 2px;
+   font-weight: 400;
+
+   @media screen and (max-width: 1100px) {
+      @include DisplayFlexCol;
+      background-color: black;
+      align-items: center;
+      margin: 0px;
+   }
+}
+
+.navbar-list-item{
+   color: white;
+   letter-spacing: 2px;
+   padding-top: 1.5rem;
+   padding-bottom: 1.5rem;
+   padding-left: 0.5rem;
+   padding-right: 0.4rem;
+   cursor: pointer;
+   text-decoration: none;
+   font-weight: 400;
+
+   &:hover{
+      color: red;
+      border: 0px solid white;
+   }
+
+   @media screen and (max-width: 600px) {
+      font-size: small;
+   }
+}
+
+.navbar-style{
+   position: fixed;
+   background-color: black;
+}
+
+.navbar-menu-icon{
+   @include DisplayFlexRow;
+   background-color: black;
+   color: white;
+   align-self: center;
+
+   p{
+      font-size: 18px;
+      font-weight: 600;
+      margin: 0px;
+      text-align: center;
+      margin-top: 4px;
+      margin-left: 7px;
+   }
+
+   @media screen and (min-width: 1100px) {
+      display: none;
+   }
+
+
+}
+
+.navbar-menu-icon-image{
+   width: 30px;
+   height: 30px;
+}
+
+.navbar-logo-with-menu{
+   @include DisplayFlexRow;
+   justify-content: space-between;
+   padding: 10px;
+   cursor: pointer;
+
+   @media screen and (max-width:200px) {
+           flex-direction: column;
+       }
+}
+
+.display-none{
+   display: none;
+}
+
+.login-signup-button{
+   align-self: center;
+   margin-right: 2rem;
+
+   button{
+      padding: 0.5rem;
+      background-color: $PRIMARY_COLOR;
+      font-weight: 600;
+      font-size: medium;
+      border-color: $PRIMARY_COLOR;
+      cursor: pointer;
+   }
+
+   .login{
+      border-top-left-radius: 1rem;
+      border-bottom-left-radius: 1rem;
+   }
+
+   .signup{
+      border-top-right-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+   }
+
+}
+
+.profile-option{
+   background-color: white;
+}
+
+.nav-prof{
+   display: flex;
+   flex-direction: column;
+}

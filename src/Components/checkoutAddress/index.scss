@@ -1,0 +1,36 @@
+.checkout-address-container{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    background-color: #fdfbfb;
+    color: black;
+    margin: 1rem 10%;
+    border-radius: 1rem;
+}
+
+.adress-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    width: 80%;
+}
+
+.checkout-address-header{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #da973b;
+    padding: 0.7rem 0;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    font-weight: bold;
+}
+
+.add-new-address{
+    margin: 8px;
+    background-color: #da973b;
+    border: 1px solid green;
+}

@@ -1,0 +1,71 @@
+@import '../../scss/colors.scss';
+@import '../../scss/mixins.scss';
+
+.contact-us-container{
+    @include DisplayFlexRow;
+    padding: 0% 2%;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 6rem;
+
+    .contact-information{
+        @include DisplayFlexCol;
+        color: white;
+        gap: 10px;
+        width: 50%;
+        align-items: end;
+
+        .value{
+            color: $PRIMARY_COLOR;
+        }
+    }
+
+
+    .send-message-container{
+        @include DisplayFlexCol;
+        width: 50%;
+        align-items: start;
+        padding-top: 20px;
+
+        .name-email{
+            @include DisplayFlexRow;
+
+            @media screen and (max-width:600px) {
+                flex-direction: column;
+            }
+        }
+
+        textarea{
+            width: 80%;
+            resize: vertical;
+        }
+    }
+
+}
+
+.style-inputs{
+    padding: 10px;
+    background-color: black;
+    border:1px solid yellow;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+}
+
+.send-message-button{
+    padding: 10px 15px;
+    background-color: black;
+    margin: 5px;
+    color: white;
+    background-color: $PRIMARY_COLOR;
+    border-radius: 6px;
+    width: 50%;
+
+    &:hover{
+        background-color: black;
+        border: 1px solid $PRIMARY_COLOR;
+        color: $PRIMARY_COLOR;
+    }
+}
+
+

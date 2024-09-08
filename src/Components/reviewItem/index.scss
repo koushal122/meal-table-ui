@@ -1,0 +1,44 @@
+@import '../../scss/mixins.scss';
+@import '../../scss/colors.scss';
+
+.reviewer-item-container{
+    padding: 10px;
+    color: white;
+    background-color:$PRIMARY_COLOR ;
+    margin: 1%;
+    border-radius: 10px;
+
+    &:hover{
+        transform: scale(1.03);
+        position:initial;
+        z-index:111;
+        border: 2px solid white;
+    }
+}
+
+.reviewer-profile-image{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.reviewer-details{
+    @include DisplayFlexRow
+}
+
+.reviewer-name-positon{
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+
+    .reviewer-name{
+        margin: 0px;
+       text-align: start;
+    }
+
+    .reviewer-position{
+        margin: 0px;
+        text-align: start;
+    }
+}

@@ -1,0 +1,108 @@
+@import '../../scss/mixins.scss';
+@import '../../scss/colors.scss';
+
+.home-adress-book-table{
+   @include DisplayFlexRow;
+   width: 100%; 
+
+   @media screen and (max-width:915px) {
+     @include DisplayFlexCol;
+     align-items: center;
+     padding: 5px;
+   }
+}
+
+.address-location{
+    width: 70%;
+    @media screen and (max-width:915px) {
+        width: 100%;
+      }
+}
+
+.home-book-table{
+    width: 30%;
+    @media screen and (max-width:900px) {
+        width: 100%;
+        padding: 10px 20px;
+      }
+}
+
+.home-menu-section{
+    @include DisplayFlexRow;
+    gap: 1rem;
+    padding: 40px;
+
+    @media screen and (max-width:700px) {
+       @include DisplayFlexCol;
+      }
+
+    .home-menu-section-first{
+        @include DisplayFlexCol;
+        align-items: flex-end;
+        width: 50%;
+        @media screen and (max-width:700px) {
+            width: 100%;
+          }
+        span{
+            color: $PRIMARY_COLOR;
+            font-family: "Great Vibes", cursive;
+            font-size: 50px;
+            margin-bottom: -10px;
+        }
+
+        h3{
+            color: white;
+            font-weight: 700;
+            font-size: 40px;
+            margin-top: -20px;
+        }
+
+        p{
+            color: gray;
+            font-family: "Poppins", Arial, sans-serif;
+            text-align: right;
+        }
+
+        button{
+            border: 1px solid $PRIMARY_COLOR;
+            background: transparent;
+            color: $PRIMARY_COLOR;
+            cursor: pointer;
+            padding: 1.5rem;
+            &:hover{
+                background: $PRIMARY_COLOR;
+                color: white;
+            }
+        }
+    }
+}
+
+.home-menu-section-images-row{
+    @include DisplayFlexRow;
+    gap: 1em;
+    .home-menu-section-images-col{
+        @include DisplayFlexCol;
+        gap: 1em;
+
+        img{
+            width:200px;
+            background-position: center;
+            background-size: cover;
+
+            @media screen and (max-width:700px) {
+                width: 100%;
+              }
+        }
+    }
+}
+
+.product-item{
+    @include DisplayFlexRow;
+    justify-content: center;
+    gap: 1em;
+    padding: 2em;
+
+    @media screen and (max-width:700px) {
+        @include DisplayFlexCol;
+      }
+}

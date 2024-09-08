@@ -1,0 +1,32 @@
+
+.footer-blog-container{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-blog{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: fit-content;
+
+    .footer-blog-image{
+        width: 30%;
+    }
+
+    .footer-blog-details{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-blog-title{
+        margin: 0px;
+    }
+    
+    .footer-blog-time{
+        margin: 0px;
+        color: gray;
+    }
+}

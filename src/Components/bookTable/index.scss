@@ -1,0 +1,94 @@
+@import '../../scss/colors.scss';
+
+.book-table{
+    padding: 10px;
+    background-color: $PRIMARY_COLOR;
+    width: 100%;
+    color: white;
+
+    input,textarea{
+        background-color: $PRIMARY_COLOR;
+        padding: 10px;
+        width: 50%;
+        border: none;
+        border-bottom: 1px solid white;
+        margin:5px;
+        &::placeholder{
+            color: white;
+        }
+        @media screen and (max-width:400px) {
+                 width:100%;
+        }
+    }
+
+    .check-table{
+        background-color: white;
+        color: black;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        align-items: start;
+        &:hover{
+            background-color: black;
+            color: white;
+        }
+    }
+}
+
+.book-name,.book-date-time{
+    display: flex;
+    gap: 5px;
+
+    @media screen and (max-width:400px) {
+         flex-direction: column;
+       }
+}
+
+.book-msg-appoint{
+    display: flex;
+    gap: 4px;
+    margin-top: 4px;
+}
+
+.date-time-seat{
+    display: flex;
+
+    .seat-count{
+        width: 50%;
+        @media screen and (max-width:400px) {
+            width: 100%;
+         }
+    }
+
+    .start-time{
+        width: 25%;
+        @media screen and (max-width:400px) {
+            width: 100%;
+         }
+    }
+
+    .end-time{
+        width: 25%;
+        @media screen and (max-width:400px) {
+            width: 100%;
+         }
+    }
+    @media screen and (max-width:400px) {
+        width: 100%;
+       flex-direction: column;
+     }
+}
+
+.book-table-phone{
+    display: flex;
+
+    @media screen and (max-width:400px) {
+        flex-direction: column;
+      }
+    
+      .book-table-button{
+        width: 50%;
+        border-radius: 0.5rem;
+      }
+
+}
+

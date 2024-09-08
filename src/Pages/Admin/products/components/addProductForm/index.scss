@@ -1,0 +1,19 @@
+@import '../../../../../scss/colors.scss';
+
+.add-product-form{
+    color: black;
+    display: flex;
+    flex-direction: column;
+
+    input{
+        padding: 5px;
+        margin: 2px;
+    }
+}
+
+.save-button{
+    background-color: $PRIMARY_COLOR;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0px;
+}

@@ -1,0 +1,46 @@
+@import '../../scss/mixins.scss';
+@import '../../scss/colors.scss';
+
+
+.menu-type{
+    @include DisplayFlexRow;
+    justify-content: center;
+    gap: 10px;
+
+    @media screen and (max-width:400px) {
+      @include DisplayFlexCol;
+    }
+}
+
+.menu-type-option{
+    padding: 10px;
+    background-color: transparent;
+    color: $PRIMARY_COLOR;
+    font-size: 1.2em;
+    margin: 2px;
+    border: 0px;
+    border-bottom: 2px solid $PRIMARY_COLOR;
+    margin-bottom: 10px;
+
+    &:hover{
+        background-color: $PRIMARY_COLOR;
+        color: black;
+    }
+}
+
+.active-menu-type{
+    background-color: $PRIMARY_COLOR ;
+    color: black ;
+}
+
+.menu-items-container{
+    @include DisplayFlexRow;
+    flex-wrap: wrap;
+    padding: 3% 10%;
+    justify-content: center;
+}
+
+.menu-items{
+    width: 30%;
+    margin: 10px 5px;
+}

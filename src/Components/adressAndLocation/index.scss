@@ -1,0 +1,46 @@
+@import '../../scss/mixins.scss';
+
+.info{
+   @include DisplayFlexRow;
+   background-color:black;
+   justify-content: center;
+   padding-top: 8%;
+   padding-left: 5%;
+   padding-bottom: 3%;
+   width: 100%;
+
+   @media screen and (max-width:450px) {
+        @include DisplayFlexCol;
+      }
+}
+
+.info-details{
+    @include DisplayFlexCol;
+    padding-top: 0.5rem;
+}
+
+.info-icons{
+    width: 35px;
+    height: 35px;
+    margin: 2px;
+}
+
+.info-details-header{
+    font-size: 16px;
+    margin: 1px;
+    color: white;
+}
+.info-details-details{
+    font-size: 16px;
+    margin: 2px;
+    color: white;
+}
+.info-location,.info-timing,.info-addres{
+    @include DisplayFlexRow;
+    width: 33.3%;
+
+   @media screen and (max-width:450px) {
+        width:100%;
+        margin:10px 0px;
+      }
+}

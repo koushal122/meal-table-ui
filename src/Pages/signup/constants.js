@@ -1,0 +1,1 @@
+export const SIGNUP_ENDPOINT = '/api/auth/create-user';
