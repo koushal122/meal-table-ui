@@ -1,4 +1,5 @@
 .checkout-address-container{
+    overflow: scroll;
     border: 1px solid red;
     display: flex;
     flex-direction: column;
@@ -33,4 +34,8 @@
     margin: 8px;
     background-color: #da973b;
     border: 1px solid green;
+}
+
+.address-list-container{
+   overflow-y: scroll;
 }

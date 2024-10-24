@@ -28,36 +28,35 @@ const Home = () => {
    },[]);
     return (
         <AppLayout>
-        <ImageSlider Images={CAROUSEL_SLIDERS}/>
-        <div className="home-adress-book-table">
-          <AdressAndLocation className="address-location" ></AdressAndLocation>
-          <BookTable className="home-book-table" ></BookTable>
-        </div>
-        <About/>
-        <Services/>
-        <div className="home-menu-section">
-            <div className="home-menu-section-first">
-                 <span>Discover</span>
-                 <h3>OUR MENU</h3>
-                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                 <Link to='/menu'><button>View Full Menu</button></Link>
-            </div>
-            <div className="home-menu-section-images-row">
-               <div className="home-menu-section-images-col">
-                  <img src={Coffe_cup_image} alt='coffee_cup' />
-                  <img src={DrinkImage} alt='coffee_cup' />
+         <ImageSlider Images={CAROUSEL_SLIDERS}/>
+         <div className="home-adress-book-table">
+            <AdressAndLocation className="address-location" ></AdressAndLocation>
+            <BookTable className="home-book-table" ></BookTable>
+         </div>
+         <About/>
+         <Services/>
+         <div className="home-menu-section">
+               <div className="home-menu-section-first">
+                  <span>Discover</span>
+                  <h3>OUR MENU</h3>
+                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                  <Link to='/menu'><button>View Full Menu</button></Link>
                </div>
-               <div className="home-menu-section-images-col" >
-                 <img src={Coffee_cup_image2} alt='coffee_cup' />
-                  <img src={Coffee_cup_image3} alt='coffee_cup' />
+               <div className="home-menu-section-images-row">
+                  <div className="home-menu-section-images-col">
+                     <img src={Coffe_cup_image} alt='coffee_cup' />
+                     <img src={DrinkImage} alt='coffee_cup' />
+                  </div>
+                  <div className="home-menu-section-images-col" >
+                  <img src={Coffee_cup_image2} alt='coffee_cup' />
+                     <img src={Coffee_cup_image3} alt='coffee_cup' />
+                  </div>
                </div>
-            </div>
-        </div>
-         <GrowingNumbers/>
-         <ProductMenu itemLimit={6}/>
-         <Reviews/>
-         <Blog/>
-         <hr></hr>
+         </div>
+            <GrowingNumbers/>
+            <ProductMenu itemLimit={6}/>
+            <Reviews/>
+            <Blog/>
          </AppLayout>
         
       );

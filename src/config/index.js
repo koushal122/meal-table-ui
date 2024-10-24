@@ -1,1 +1,1 @@
-export const BASE_URL='http://15.207.223.2:8080'
+export const BASE_URL= process.env.REACT_APP_BASE_URL

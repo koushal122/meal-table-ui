@@ -17,16 +17,18 @@ const CheckoutAddress = ({addresses,addNewAddress,deliver}) => {
   return (
     <div className='checkout-address-container'>
         <p className='checkout-address-header'>Delivery Address</p>
-        {
-           addresses.map((address) => {
-            return (
-              <div className='adress-container'>
-                <span><input type='radio' name='delivery-radio' value={address?.id} onChange={handleCheckboxChange}/></span> 
-                <Address address={address} checked={checkedbox} deliver={deliver}/>
-              </div>
-            )
-           })
-        }
+        <div className='address-list-container'>
+          {
+            addresses.map((address) => {
+              return (
+                <div className='adress-container'>
+                  <span><input type='radio' name='delivery-radio' value={address?.id} onChange={handleCheckboxChange}/></span> 
+                  <Address address={address} checked={checkedbox} deliver={deliver}/>
+                </div>
+              )
+            })
+          }
+        </div>
         <button onClick={()=>setShowAddNewAddressPopUp(true)} className='button add-new-address'>Add New Address</button>
         {
           showAddNewAddressPopUp && <AddNewAddress onClose={onClose} addNewAddress={addNewAddress}/>

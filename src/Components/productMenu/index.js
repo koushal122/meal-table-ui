@@ -45,7 +45,7 @@ const ProductMenu = (props) => {
     },[activeMenuTag]);
 
   return (
-    <div>
+    <div className='product-menu-container'>
         <div className="product-menu-heading">
             <HeadingText heading1="Discover" heading2="Our Products"/>
         </div>

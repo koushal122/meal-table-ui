@@ -33,7 +33,7 @@ let persistor = persistStore(Store);
 root.render(
   <Provider store={Store}>
     <PersistGate persistor={persistor}>
-      <BrowserRouter basename='/meal-table-ui'>
+      <BrowserRouter basename='/'>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/menu" element={<Menu />} />

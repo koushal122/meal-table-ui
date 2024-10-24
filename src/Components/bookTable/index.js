@@ -80,7 +80,7 @@ const BookTable = ({className}) => {
       return;
     }
     const selectedStartTime = Math.floor(new Date(startTime).getTime()/1000);
-    const selectedEndTime = Math.floor(new Date(endTime).getTime());
+    const selectedEndTime = Math.floor(new Date(endTime).getTime()/1000);
     if(!await timeValidations(selectedStartTime,selectedEndTime)) return;
     if (!phone || !phoneNumberValidator(phone)) {
       alert('Please enter a valid 10 digit phone number.');
